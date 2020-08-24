@@ -1,41 +1,56 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 100%;
-}
 body {
-    max-width: 30em;
-    margin: 1em;
-    font-size: 1em;
-    line-height: 1.4;
+	font: 16px Helvetica, Sans-Serif;
+	background: url(noise.png);
 }
-header {
-    border: 1px solid white;
-    padding: .25em 0;
+
+#pic {
+	float: right;
 }
-header img {
-    float: left;
-    padding-left: 1em;
+
+#button {
+	margin-left: 40%;
+	margin-right: 40%;
+	background-color: #213862;
+
+	border-radius: 15px;
+	height: 100px;
 }
-h1 {
-    float: left;
-    padding-left: .5em;
-    font-size: 2.5em;
+
+#container {
+	width: 800px;
+	margin: 40px auto 60px;
 }
-.self-clear::after {
-    content: "";
-    display: block;
-    clear: both;
+
+#content-contact {
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
+	font-size: 42px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	border-bottom: 1px solid #999;
 }
-nav {
-    border: 1px solid white;
-    padding: .5em;
+
+#content-summarycontent {
+	margin: 0 0 16px 0;
+	padding: 0 0 32px 0;
+
+	font-style: italic;
+	font-size: 20px;
 }
-nav ul {
-    list-style-type: none;
+
+#content-professionalheader {
+	font-size: 28px;
 }
-nav li }
-    float: left;
-    padding-right: 1.5em
+
+.date {
+	float: right;
+}
+
+h3 {
+	border-bottom: 1px solid #999;
+}
+
+h4{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
