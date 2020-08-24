@@ -1,6 +1,31 @@
-p{
-  font-family: Arial, Verdana, sans-serif
-  color: Blue;
-  } 
-  
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+body {
+    max-width: 30em;
+    margin: 1em;
+    font-size: 1em;
+    line-height: 1.4;
+}
+header {
+    border: 1px solid black;
+    padding: .25em 0;
+}
+header img {
+    float: left;
+    padding-left: 1em;
+}
+h1 {
+    float: left;
+    padding-left: .5em;
+    font-size: 2.5em;
+}
+.self-clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
